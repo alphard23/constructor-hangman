@@ -21,4 +21,4 @@ var wordArray = [
 ];
 
 // select a random word from word bank
-var pickedWord = new Word(wordBank[Math.floor(Math.random() * wordArray.length)]);
+var pickedWord = new Word(wordArray[Math.floor(Math.random() * wordArray.length)]);
